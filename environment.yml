@@ -1,0 +1,11 @@
+name: ecommerce-env  # The name of your environment
+channels:
+  - defaults        # The conda channels to search for packages
+dependencies:
+  - python=3.12     # Python version
+  - pandas          # Essential for data manipulation
+  - numpy           # For numerical operations
+  - matplotlib      # For plotting and visualizations
+  - seaborn         # Visualization library
+  - jupyter         # Jupyter Notebook for interactive coding
+
